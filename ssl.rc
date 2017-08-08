@@ -1,0 +1,407 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ssl.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ssl.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 239, 69
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ssl"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "ssl 1.0 版 \nCopyRight 2007",IDC_STATIC,44,15,119,22,
+                    SS_NOPREFIX
+    LTEXT           "设计者： 朱汀一   王哲彦\n         刘枭烨   陆丛凡",
+                    IDC_STATIC,43,37,119,23
+    DEFPUSHBUTTON   "确定",IDOK,182,19,50,14,WS_GROUP
+END
+
+IDD_SSL_DIALOG DIALOGEX 0, 0, 427, 306
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "天天彩----时时乐"
+MENU IDR_MENU1
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "帮助(&H)",ID_HELP,341,269,50,14
+    CONTROL         "直选",IDC_zhix,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    31,156,32,10
+    CONTROL         "组选六",IDC_zx6,"Button",BS_AUTORADIOBUTTON,31,174,40,
+                    10
+    CONTROL         "组选三",IDC_zx3,"Button",BS_AUTORADIOBUTTON,31,192,40,
+                    10
+    CONTROL         "前二",IDC_q2,"Button",BS_AUTORADIOBUTTON,31,210,32,10
+    CONTROL         "后二",IDC_h2,"Button",BS_AUTORADIOBUTTON,31,228,32,10
+    CONTROL         "前一",IDC_q1,"Button",BS_AUTORADIOBUTTON,31,246,32,10
+    CONTROL         "后一",IDC_h1,"Button",BS_AUTORADIOBUTTON,31,264,32,10
+    GROUPBOX        "投注方式",IDC_STATIC,18,138,64,148
+    GROUPBOX        "选择期号",IDC_STATIC,18,13,64,83
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,25,36,51,15
+    COMBOBOX        IDC_Qishu,37,67,24,61,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "选择号码",IDC_STATIC,98,13,108,273
+    CONTROL         "1",IDC_A1,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,42,18,18
+    CONTROL         "2",IDC_A2,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,64,18,18
+    CONTROL         "3",IDC_A3,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,86,18,18
+    CONTROL         "4",IDC_A4,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,108,18,18
+    CONTROL         "5",IDC_A5,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,130,18,18
+    CONTROL         "6",IDC_A6,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,152,18,18
+    CONTROL         "7",IDC_A7,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,174,18,18
+    CONTROL         "8",IDC_A8,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,196,18,18
+    CONTROL         "9",IDC_A9,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,218,18,18
+    CONTROL         "0",IDC_A10,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,117,240,18,18
+    CONTROL         "1",IDC_B1,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,42,18,18
+    CONTROL         "2",IDC_B2,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,64,18,18
+    CONTROL         "3",IDC_B3,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,86,18,18
+    CONTROL         "4",IDC_B4,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,108,18,18
+    CONTROL         "5",IDC_B5,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,130,18,18
+    CONTROL         "6",IDC_B6,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,152,18,18
+    CONTROL         "7",IDC_B7,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,174,18,18
+    CONTROL         "8",IDC_B8,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,196,18,18
+    CONTROL         "9",IDC_B9,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,218,18,18
+    CONTROL         "0",IDC_B10,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,142,240,18,18
+    CONTROL         "1",IDC_C1,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,42,18,18
+    CONTROL         "2",IDC_C2,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,64,18,18
+    CONTROL         "3",IDC_C3,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,86,18,18
+    CONTROL         "4",IDC_C4,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,108,18,18
+    CONTROL         "5",IDC_C5,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,130,18,18
+    CONTROL         "6",IDC_C6,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,152,18,18
+    CONTROL         "7",IDC_C7,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,174,18,18
+    CONTROL         "8",IDC_C8,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,196,18,18
+    CONTROL         "9",IDC_C9,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,218,18,18
+    CONTROL         "0",IDC_C10,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_TABSTOP,167,240,18,18
+    PUSHBUTTON      "复位",IDC_Reset,117,263,67,16
+    PUSHBUTTON      "确认号码",IDC_BUTTON3,361,65,47,20
+    PUSHBUTTON      "删除",IDC_BUTTON4,361,92,47,20
+    PUSHBUTTON      "清空",IDC_BUTTON5,361,119,47,20
+    PUSHBUTTON      "投  注",IDC_BUTTON1,362,150,45,95,BS_CENTER | 
+                    BS_VCENTER | BS_FLAT
+    GROUPBOX        "追加倍数",IDC_STATIC,361,16,47,38,BS_CENTER
+    EDITTEXT        IDC_EDIT1,373,30,21,16,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,221,18,128,227
+    CTEXT           "第",IDC_STATIC,24,66,13,15,SS_CENTERIMAGE
+    CTEXT           "期",IDC_STATIC,62,66,13,15,SS_CENTERIMAGE
+    CTEXT           "百位",IDC_STATIC,113,26,26,13,SS_CENTERIMAGE
+    CTEXT           "十位",IDC_STATIC,138,26,26,13,SS_CENTERIMAGE
+    CTEXT           "个位",IDC_STATIC,164,26,26,13,SS_CENTERIMAGE
+    PUSHBUTTON      "查询",IDC_cx,19,105,61,20
+    CONTROL         "",IDC_OCX1,"{6BF52A52-394A-11D3-B153-00C04F79FAA6}",NOT 
+                    WS_VISIBLE | WS_TABSTOP,336,271,84,28
+    PUSHBUTTON      "机选一注",IDC_JXYZ,249,255,63,20
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ssl Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ssl\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ssl.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ssl 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_SSL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 420
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 299
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SSL_DIALOG DLGINIT
+BEGIN
+    IDC_Qishu, 0x403, 3, 0
+0x3130, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3230, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3330, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3430, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3530, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3630, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3730, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3830, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3930, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_Qishu, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_OCX1, 0x376, 286, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x0008, 0x0078, 0x0000, 0x0043, 0x003a, 
+0x005c, 0x0044, 0x006f, 0x0063, 0x0075, 0x006d, 0x0065, 0x006e, 0x0074, 
+0x0073, 0x0020, 0x0061, 0x006e, 0x0064, 0x0020, 0x0053, 0x0065, 0x0074, 
+0x0074, 0x0069, 0x006e, 0x0067, 0x0073, 0x005c, 0x0075, 0x0073, 0x0065, 
+0x0072, 0x005c, 0x684c, 0x9762, 0x005c, 0x0063, 0x002b, 0x002b, 0x0020, 
+0x0070, 0x0072, 0x006f, 0x006a, 0x0065, 0x0063, 0x0074, 0x005c, 0x0073, 
+0x0073, 0x006c, 0x005c, 0x0031, 0x0038, 0x005b, 0x0031, 0x005d, 0x002e, 
+0x0077, 0x006d, 0x0061, 0x0000, 0x0005, 0x0000, 0x0000, 0x0000, 0x3ff0, 
+0x0003, 0x0000, 0x0000, 0x0005, 0x0000, 0x0000, 0x0000, 0x0000, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0003, 0x0001, 0x0000, 0x000b, 0xffff, 0x0003, 
+0x0000, 0x0000, 0x000b, 0xffff, 0x0008, 0x0002, 0x0000, 0x0000, 0x0003, 
+0x0032, 0x0000, 0x000b, 0x0000, 0x0008, 0x000a, 0x0000, 0x006d, 0x0069, 
+0x006e, 0x0069, 0x0000, 0x000b, 0x0000, 0x000b, 0x0000, 0x000b, 0xffff, 
+0x000b, 0xffff, 0x000b, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x000b, 0x0000, 0x0d06, 0x0000, 0x0457, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "操作"
+    BEGIN
+        POPUP "模拟"
+        BEGIN
+            MENUITEM "模拟1期",                     ID_simul_one_issue
+            MENUITEM "模拟1天",                     ID_simul_one_day
+            MENUITEM "模拟1月",                     ID_simul_one_month
+        END
+        MENUITEM "查询中奖",                    ID_cxzj
+        MENUITEM "退出",                        IDCANCEL
+    END
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "关于",                        ID_MENUabout
+        MENUITEM "使用说明",                    ID_HELP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ssl(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ssl.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

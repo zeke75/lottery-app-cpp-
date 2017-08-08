@@ -1,0 +1,28 @@
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_ABOUTBOX                           0x10010
+HID_MENUITEM32771                       0x18003
+HID_MENUabout                           0x18004
+HID_MENUITEM32775                       0x18007
+HID_MENUITEM32776                       0x18008
+HID_MENUITEM32777                       0x18009
+HID_MENUITEM32779                       0x1800B
+HID_cxzj                                0x1800B
+HID_MENUITEM32780                       0x1800C
+HID_simul_one_issue                     0x1800C
+HID_MENUITEM32781                       0x1800D
+HID_simul_one_day                       0x1800D
+HID_MENUITEM32782                       0x1800E
+HID_simul_one_month                     0x1800E
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_MENU1                              0x20082
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_SSL_DIALOG                         0x20066
+ 
+// Frame Controls (IDW_*) 
